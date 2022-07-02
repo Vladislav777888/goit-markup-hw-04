@@ -152,8 +152,6 @@ address {
 }
 
 .contacts-header .item {
-  display: flex;
-  align-items: center;
   color: var(--secondary-text-color);
 }
 
@@ -169,6 +167,9 @@ address {
 
 .contact-tel,
 .contact-mail {
+  display: flex;
+  align-items: center;
+
   color: var(--secondary-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -277,13 +278,13 @@ address {
 }
 
 .icon-advantages {
+  display: flex;
   margin-bottom: 30px;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  justify-content: center;
+  align-items: center;
 
   width: 270px;
   height: 120px;
-  background-position: center;
   background-color: var(--third-background-color);
   border-radius: 4px;
 }
@@ -427,8 +428,9 @@ address {
 }
 
 .list-clients .link {
-  display: block;
-  padding: 16px 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: 100%;
   color: var(--color-social-link);
